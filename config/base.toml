@@ -1,8 +1,13 @@
 [Server]
 PORT = "8080"
+ENV = "staging"
 
 [MySQL]
 HOST = "127.0.0.1"
 PORT = "3306"
 USER = "root"
 PASS = ""
+
+[Auth]
+SECRET = "secret_key"
+SALT = "0123456789"
